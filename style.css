@@ -8,10 +8,10 @@ body {
     position: relative;
 }
 .nad{
-    top: 0; /* Располагаем вверху страницы */
-    left: 0; /* Располагаем в левом углу страницы */
+    top: 24%; /* Располагаем вверху страницы */
+    left: 30%; /* Располагаем в левом углу страницы */
     position: absolute;
     
-    max-height: 100%;
-    max-width: 100%;
+    max-height: 50%;
+    max-width: 50%;
 }
