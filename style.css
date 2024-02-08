@@ -9,14 +9,3 @@ body {
     position: relative;
 }
 
-.nad{
-    background-image: url('nad.png');
-            background-size: cover;
-            background-position: center;
-            margin: 0 auto; /* Центрируем блок по горизонтали */
-            position: absolute;
-            top: 7%;
-            left: 24%;
-            width: 809px;
-            height: 237px;
-}
