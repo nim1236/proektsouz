@@ -1,8 +1,22 @@
 body {
-    width: 1920px;
-    height: 3240px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 2600px;
     background-image: url('fon.png');
-    background-size: 100% 100%; /* Изображение подстраивается под размеры страницы */
-    background-position: top;
-    /* background-attachment: fixed; Закомментируйте или удалите эту строку */
+    background-size: 100% 2600px;
+    background-position: center; /* Центрируем изображение */
+    position: relative;
+}
+
+.nad{
+    background-image: url('nad.png');
+            background-size: cover;
+            background-position: center;
+            margin: 0 auto; /* Центрируем блок по горизонтали */
+            position: absolute;
+            top: 7%;
+            left: 24%;
+            width: 809px;
+            height: 237px;
 }
