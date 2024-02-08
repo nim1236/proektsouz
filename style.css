@@ -2,15 +2,50 @@ body {
     margin: 0;
     padding: 0;
 }
-.dynamicImage{
+.dynamicImage{/*Фон*/
     width: 100%;
     height: 100%;
     position: relative;
 }
-.nad{
-    top: 5%; /* Располагаем вверху страницы */
-    left: 25%; /* Располагаем в левом углу страницы */
+.nad{/*Союз*/
+    top: 40%; 
+    left: 25%; 
     position: absolute;
     max-height: 50%;
     max-width: 50%;
+}
+.nad2{/*Команда Союз*/
+    top: 140%; 
+    left: 3%; 
+    position: absolute;
+    max-height: 90%;
+    max-width: 90%;
+}
+.zag{/*Загрузка*/
+    top: 75%; 
+    left: 32%; 
+    position: absolute;
+    max-height: 70%;
+    max-width: 70%;
+}
+.yt{/*юt*/
+    bottom: -225%; 
+    left: 32%; 
+    position: absolute;
+    max-height: 70%;
+    max-width: 70%;
+}
+.tg{/*tg*/
+    bottom: -224%; 
+    left: 27%; 
+    position: absolute;
+    max-height: 70%;
+    max-width: 70%;
+}
+.vk{/*вк*/
+    bottom: -223%; 
+    left: 22%; 
+    position: absolute;
+    max-height: 70%;
+    max-width: 70%;
 }
