@@ -8,7 +8,7 @@ body {
     position: relative;
 }
 .nad{
-    top: 285px; /* Располагаем вверху страницы */
+    margin-top: 285px; /* Располагаем вверху страницы */
     left: 25%; /* Располагаем в левом углу страницы */
     position: absolute;
     max-height: 50%;
