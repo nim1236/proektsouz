@@ -1,7 +1,7 @@
 body {
     width: 1920px;
     height: 3240px;
-    background-image: url('C:\\Users\\Пользователь\\Desktop\\проект\\fon.png');
+    background-image: url('fon.png');
     background-size: 100% 100%; /* Изображение подстраивается под размеры страницы */
     background-position: top;
     /* background-attachment: fixed; Закомментируйте или удалите эту строку */
