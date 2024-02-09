@@ -6,106 +6,156 @@ body {
     width: 100%;
     height: 100%;
     position: relative;
+    user-select: none;
 }
 .nad{/*Союз*/
-    top: 40%; 
-    left: 25%; 
+    margin-top: 28%;
+    left: 50%; 
     position: absolute;
     max-height: 50%;
     max-width: 50%;
+    transform: translate(-50%, -50%);
+    user-select: none;
+    
+    
 }
 .nad2{/*Команда Союз*/
-    top: 140%; 
-    left: 3%; 
+    margin-top: 80%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
     position: absolute;
-    max-height: 90%;
-    max-width: 90%;
+    height: 40%;
+    width: 80%;
+    user-select: none;
 }
 .zag{/*Загрузка*/
-    top: 75%; 
-    left: 32%; 
+    margin-top: 45%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
     position: absolute;
-    max-height: 70%;
-    max-width: 70%;
+    user-select: none;
+    height: 10%;
+    width: 35%;
+    
 }
 .yt{/*юt*/
-    bottom: -225%; 
-    left: 32%; 
+    margin-top: 161.5%; 
+    left: 23%; 
+    user-select: none;
     position: absolute;
-    max-height: 70%;
-    max-width: 70%;
+    height: 7%;
+    width: 3.8%;
 }
 .tg{/*tg*/
-    bottom: -224%; 
-    left: 27%; 
+    margin-top: 161.7%; 
+    left: 19%; 
+    user-select: none;
     position: absolute;
-    max-height: 70%;
-    max-width: 70%;
+    height: 6%;
+    width: 3%;
 }
 .vk{/*вк*/
-    bottom: -223%; 
-    left: 22%; 
+    margin-top: 162.1%;  
+    user-select: none;
+    left: 28%; 
     position: absolute;
-    max-height: 70%;
-    max-width: 70%;
+    height: 5%;
+    width: 3%;
 }
-.logo{/*лого с надписью*/
-    top: 3%; 
-    left: 2%; 
+.logo2{/*лого с надписью*/
+    margin-top: 4%; 
+    left: 7%; 
+    user-select: none;
+    transform: translate(-50%, -50%);
     position: absolute;
-    max-height: 70%;
-    max-width: 70%;
+    height: 6%;
+    width: 8.7%;
 }
 .logo1{/*лого без надписи*/
-    bottom: -223%; 
-    left: 78%; 
+    margin-top: 163.4%; 
+    user-select: none;
+    left: 82%; 
+    transform: translate(-50%, -50%);
     position: absolute;
-    max-height: 70%;
-    max-width: 70%;
+    height: 4%;
+    width: 2%;
 }
 .ispol{/*Используй.*/
-    top: 190%; 
-    left: 11%; 
+    margin-top: 100%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
     position: absolute;
-    max-height: 82%;
-    max-width: 82%;
+    height: 15%;
+    width: 75%; 
+    user-select: none;
 }
 .dryzui{/*В друзья.*/
-    top: 208%; 
-    left: 40%; 
+    margin-top: 106%;  
+    user-select: none;
+    left: 50%; 
+    transform: translate(-50%, -50%);  
     position: absolute;
-    max-height: 23%;
-    max-width: 23%;
+    height: 4%;
+    width: 20%;
 }
 .sozdavai{/*Создавай.*/
-    top: 215%; 
-    left: 42%; 
+    margin-top: 109%;  
+    left: 50%; 
+    user-select: none;
+    transform: translate(-50%, -50%); 
     position: absolute;
-    max-height: 19%;
-    max-width: 19%;
+    height: 4%;
+    width: 15%;
 }
 .strim{/*Стрим.*/
-    top: 223%; 
-    left: 47%; 
+    margin-top: 112%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
     position: absolute;
-    max-height: 10%;
-    max-width: 10%;
+    user-select: none;
+    height: 3%;
+    width: 9%;
 }
 .virtyal{/*Виртуальный мир*/
-    top: 239%; 
-    left: 14%; 
+    margin-top: 121.5%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);  
     position: absolute;
-    max-height: 75%;
-    max-width: 75%;
+    user-select: none;
+    height: 4.3%;
+    width: 70%;
 }
 .zag2{/*Фио загрузка*/
-    top: 250%; 
-    left: 39%; 
+    margin-top: 127%;
+    left: 50%; 
+    transform: translate(-50%, -50%);  
     position: absolute;
-    max-height: 25%;
-    max-width: 25%;
+    user-select: none;
+    height: 7%;
+    width: 27%;
 }
 
+.button-container {
+    position: absolute;
+  }
+  .custom-button {
+    z-index: 1;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 20px;
+    color: #ffffff;
+    background-color: #3498db;
+    transition: background-color 0.3s;
+  }
+
+  .custom-button:hover {
+    background-color: #000000;
+  }
 
 
 
