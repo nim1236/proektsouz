@@ -49,3 +49,147 @@ body {
     max-height: 70%;
     max-width: 70%;
 }
+.logo{/*лого с надписью*/
+    top: 3%; 
+    left: 2%; 
+    position: absolute;
+    max-height: 70%;
+    max-width: 70%;
+}
+.logo1{/*лого без надписи*/
+    bottom: -223%; 
+    left: 78%; 
+    position: absolute;
+    max-height: 70%;
+    max-width: 70%;
+}
+.ispol{/*Используй.*/
+    top: 190%; 
+    left: 11%; 
+    position: absolute;
+    max-height: 82%;
+    max-width: 82%;
+}
+.dryzui{/*В друзья.*/
+    top: 208%; 
+    left: 40%; 
+    position: absolute;
+    max-height: 23%;
+    max-width: 23%;
+}
+.sozdavai{/*Создавай.*/
+    top: 215%; 
+    left: 42%; 
+    position: absolute;
+    max-height: 19%;
+    max-width: 19%;
+}
+.strim{/*Стрим.*/
+    top: 223%; 
+    left: 47%; 
+    position: absolute;
+    max-height: 10%;
+    max-width: 10%;
+}
+.virtyal{/*Виртуальный мир*/
+    top: 239%; 
+    left: 14%; 
+    position: absolute;
+    max-height: 75%;
+    max-width: 75%;
+}
+.zag2{/*Фио загрузка*/
+    top: 250%; 
+    left: 39%; 
+    position: absolute;
+    max-height: 25%;
+    max-width: 25%;
+}
+
+
+
+
+
+.burger-checkbox {
+    display: none;
+  }
+  
+  .burger {
+    position: fixed;
+    top: 20px; /* Adjust the top position as needed */
+    right: 20px; /* Adjust the right position as needed */
+    z-index: 2;
+    cursor: pointer;
+    display: block;
+    width: 40px;
+    height: 26px;
+    background: transparent;
+  }
+  
+  .burger::before,
+  .burger::after {
+    content: '';
+    left: 0;
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 4px;
+    border-radius: 10px;
+    background: #000;
+  }
+  
+  .burger::before {
+    top: 0;
+    box-shadow: 0 11px 0 #000;
+    transition: box-shadow .3s .15s, top .3s .15s, transform .3s;
+  }
+  
+  .burger::after {
+    bottom: 0;
+    transition: bottom .3s .15s, transform .3s;
+  }
+  
+  .burger-checkbox:checked + .burger::before {
+    top: 11px;
+    transform: rotate(45deg);
+    box-shadow: 0 6px 0 rgba(0,0,0,0);
+    transition: box-shadow .15s, top .3s, transform .3s .15s;
+  }
+  
+  .burger-checkbox:checked + .burger::after {
+    bottom: 11px;
+    transform: rotate(-45deg);
+    transition: bottom .3s, transform .3s .15s;
+  }
+  
+  .menu-list {
+    top: 0;
+    right: 0; /* Align menu to the right side */
+    position: fixed;
+    display: grid;
+    gap: 12px;
+    padding: 42px 0;
+    margin: 0;
+    background: orange;
+    list-style-type: none;
+    transform: translateX(100%); /* Move menu off-screen to the right */
+    transition: .3s;
+    width: 200px;
+  }
+  
+  .burger-checkbox:checked ~ .menu-list {
+    transform: translateX(0);
+  }
+  
+  .menu-item {
+    display: block;
+    padding: 8px;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .menu-item:hover {
+    background: rgba(255,255,255,.2);
+  }
